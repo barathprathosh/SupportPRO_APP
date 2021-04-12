@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:supportpro/Screens/Login/login_screen.dart';
+import 'package:supportpro/Screens/Myprofile/myprofile.dart';
 import 'package:supportpro/Screens/Signup/signup_screen.dart';
 import 'package:supportpro/Screens/Welcome/components/background.dart';
 import 'package:supportpro/components/rounded_button.dart';
@@ -17,7 +18,7 @@ class Body extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              "WELCOME TO EDU",
+              "WELCOME TO SupportPRO",
               style: TextStyle(fontWeight: FontWeight.bold),
             ),
             SizedBox(height: size.height * 0.05),
@@ -49,6 +50,21 @@ class Body extends StatelessWidget {
                   MaterialPageRoute(
                     builder: (context) {
                       return SignUpScreen();
+                    },
+                  ),
+                );
+              },
+            ),
+            RoundedButton(
+              text: "My Profile",
+              color: kPrimaryLightColor,
+              textColor: Colors.black,
+              press: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) {
+                      return ProfilePage();
                     },
                   ),
                 );

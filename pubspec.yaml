@@ -29,6 +29,39 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   flutter_svg: ^0.19.1
+  # splashscreen:
+  # introduction_screen:
+  # pin_code_fields: ^6.0.0
+  flare_flutter:
+  http:
+  # google_nav_bar:
+  # line_icons:
+  # flutter_html:
+  # razorpay_flutter:
+  # fluttertoast:
+  # encrypted_shared_preferences:
+  flutter_overlay_loader:
+  # flutter_form_builder:
+  # status_alert:
+  form_field_validator:
+  # intl:
+  # expandable:
+  # awesome_dialog:
+  # confetti:
+  # share:
+  # flutter_skeleton:
+  # liquid_pull_to_refresh:
+  # carousel_pro:
+  # image_picker:
+  # flutter_treeview:
+  # file_picker:
+  # flutter_gradients:
+  # device_preview:
+  # pie_chart:
+  # syncfusion_flutter_charts:
+  # flutter_staggered_grid_view:
+  # url_launcher:
+  # package_info:
 
 dev_dependencies:
   flutter_test:
@@ -49,6 +82,10 @@ flutter:
   assets:
     - assets/images/
     - assets/icons/
+    - assets/images/email_icon.png
+    - assets/images/password_icon.png
+    - assets/images/user_icon.png
+    - assets/images/as.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
